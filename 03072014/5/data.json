@@ -1,0 +1,31 @@
+{
+  "personajes": [
+    {
+		"IDPersonaje": "1",
+		"PrimerNombre": "Pepito",
+		"SegundoNombre": "Hermides",
+		"Apellido": "Perez",
+		"Ciudad": "1",
+		"Genero": "Masculino",
+		"Estado": "true"
+    },
+    {
+		"IDPersonaje": "2",
+		"PrimerNombre": "Petronila",
+		"SegundoNombre": "",
+		"Apellido": "Sulca",
+		"Ciudad": "2",
+		"Genero": "Femenino",
+		"Estado": "true"
+    },
+    {
+		"IDPersonaje": "3",
+		"PrimerNombre": "Zutanito",
+		"SegundoNombre": "Justo",
+		"Apellido": "Perez",
+		"Ciudad": "3",
+		"Genero": "Masculino",
+		"Estado": "false"
+    }
+  ]
+}

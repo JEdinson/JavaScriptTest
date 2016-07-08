@@ -1,0 +1,2 @@
+1. En la pantalla de transfusión se debe ajustar la ventana de los síntomas y ocultar el botón finalizar cuando la transfusión termine.
+2. Cuando quiero ver los síntomas presentados durante una transfusión en la devolución de un hemocomponente el sistema lanza una excepción

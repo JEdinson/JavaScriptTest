@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<title>Ejercicio Final css</title>
+
+<link rel="stylesheet" href="Estilo.css" type="text/css" >
+<script src="jquery-2.1.1.min.js"></script>
+<script src="Ejercicio.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Ejercicio</h1>
+		<h2>Css y JQuery</h2>
+	</header>
+	<nav>
+		<a href="#">Menu 1</a>
+		<a href="#">Menu 2</a>
+		<a href="#">Menu 3</a>
+		<a href="#">Menu 4</a>
+		<a href="#">Menu 5</a>
+		<a href="#">Menu 6</a>
+		<a href="#">Menu 7</a>
+		<a href="#">Menu 8</a>
+		<a href="#">Menu 9</a>
+		<a href="#">Menu 10</a>
+	</nav>
+	<section>
+		<article>
+		</article>
+		<article>
+			<div>
+				<h1>Datos</h1>	
+			</div>
+			<div class="box">
+				<table id="tblDato" class="tftable" border="1">
+				<thead>
+					<tr><th>Primer nombre</th><th>Segundo nombre</th><th>Apellido</th><th>Ciudad</th><th>Genero</th><th>Estado</th></tr>
+					<tr><th><input type="text" id="txtFiltroPrimerNombre" class="cajatexto" /></th><th></th><th></th><th></th><th></th><th></th></tr>
+				</thead>
+				<tbody id="tblDatoContenido"></tbody>				
+				</table>
+			</div>
+			<div>
+				<h1>Edición</h1>
+			</div>
+			<div class="box">
+				<label class="cajatexto" for="rdEnLinea">En línea</label><input type="radio" id="rdEnLinea" name="rdEdicion" value="1" />
+				<label class="cajatexto" for="rdControles">En controles</label><input type="radio" id="rdControles" name="rdEdicion" value="2" checked="true"/>												
+			</div>
+			<div class="box" id="contenedorControles">
+				<table id="tblControles">
+					<tr>
+						<td class="etiqueta">Primer nombre</td>
+						<td class="etiqueta">Segundo nombre</td>
+						<td class="etiqueta">Apellido</td>
+						<td class="etiqueta">Ciudad</td>
+						<td class="etiqueta">Género</td>
+						<td class="etiqueta">Estado</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" id="txtPrimerNombre" value="" />
+						</td>
+						<td>
+							<input type="text" id="txtSegundoNombre" value="" />
+						</td>
+						<td>
+							<input type="text" id="txApellido" value="" />
+						</td>
+						<td>
+							<select id="ddlCiudad">
+							</select>
+						</td>
+						<td>
+							<div id="contenedorGenero">
+								<label class="cajatexto" for="rdMasculino">Masculino</label><input type="radio" id="rdMasculino" name="rdGenero" value="2" checked="true" />
+								<label class="cajatexto" for="rdFemenino">Femenino</label><input type="radio" id="rdFemenino" name="rdGenero" value="1" />
+							</div>
+						</td>
+						<td>
+							<input type="checkbox" id="chkEstado"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" class="etiqueta">Foto</td>
+					</tr>
+					<tr>
+						<td colspan="6">
+							<img id="imgFoto" src="smiley.gif" width="100px" height="100px" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6">
+							 <ul class="notas">
+								<li>Los datos son obligatorios</li>
+								<li>Haga click en guardar</li>							
+							</ul>
+						</td>
+					</tr>
+				</table>				
+			</div>
+			<div class="box">
+				<table>
+					<tr>
+						<td colspan="6">
+							<button id="btnCargar">Cargar</button>
+							<button id="btnGuardar">Guardar</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</article>		
+		<article>
+		</article>
+	</section>	
+	<footer>
+	</footer>
+<script>
+$("section").height(($( window ).height()*.92)-$("header").height()-$("nav").height()-$("footer").height());
+</script>
+</body></html>

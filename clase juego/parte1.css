@@ -1,0 +1,70 @@
+.brick
+{
+    position: absolute;
+    border-radius: 6px;
+    border: 2px solid #000000;
+    width: 60px;
+    height: 20px;
+    box-shadow: 5px 5px 8px -2px #444444;
+}
+
+.box
+{
+    position: relative;
+    cursor: default;
+    background-color: #888888;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px 5px 20px 20px;
+    border: 2px solid black;
+    box-shadow: inset 5px 5px 8px -2px #444444;
+}
+
+.paddle
+{
+    position: absolute;
+    top: 270px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    background-color: #00FF00;
+    width: 60px;
+    height: 15px;
+    box-shadow: 5px 5px 8px -2px #444444;
+    z-index: 11;
+}
+
+.ball
+{
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    z-index: 1;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    box-shadow: 5px 5px 8px -2px #444444;
+}
+
+.info
+{
+    color: white;
+    background-color: transparent;
+    font-family: arial;
+    font-size: 20;
+}
+
+.message
+{
+    background-color: transparent;
+    position: relative;
+    top: 170px;
+    width: 100%;
+    z-index: 2;
+    font-size: 64px;
+    font-family: arial;
+    color: #CCCCCC;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+html {overflow:hidden;}
+body {height:100%; width:100%; padding:0; margin:0; overflow:hidden;background:#555}
+header {background:#e0e0e0; padding:20px;height:70px;box-sizing: border-box;}
+nav {background:#d0d0d0; padding:0 20px;height:50px;text-align:center;box-sizing: border-box;overflow-y:auto}
+nav a {display:inline-block;margin:5px 0;padding:0 1px; background:#f0f0f0; color:#069; text-decoration:none; font:normal 14px/40px 'quicksand bold', arial, sans-serif; text-transform:uppercase; text-align:center;border-radius:10px;min-width:100px}
+section {background:#ccc;box-sizing: border-box;overflow-y:auto}
+
+section article{
+	overflow-x:auto;
+	float:left;
+	height:100%;
+	box-sizing: border-box;
+}
+
+section article:nth-child(3),section article:nth-child(1) {
+	width:15%;
+	background: #ccc; 
+	padding:20px;
+	box-sizing: border-box;
+}
+
+section article:nth-of-type(2){
+width:70%;
+background:#f8f8f8;
+border-radius:10px 10px 0 0;
+}
+
+footer {background:#555; padding:10px;height:50px;box-sizing: border-box;}
+
+header h1 {padding:0; margin:0; font:normal 25px/50px arial, sans-serif; color:#000; float:left;}
+header h2 {padding:0; margin:0; font:normal 25px/50px arial, sans-serif; color:#666; float:right;}
+section h1 {padding:20px; margin:0; font:normal 18px/18px arial, sans-serif; color:#069;}
+section h2 {padding:0; margin:0; font:normal 20px/25px arial, sans-serif; color:#383;}
+section h3 {padding:0; margin:0; font:normal 17px/30px arial, sans-serif; color:#000;}
+section p {padding:0; margin:0; font:normal 13px/20px arial, sans-serif; color:#666;}
+footer p {padding:0; margin:0; font:normal 13px/20px arial, sans-serif; color:#ddd;}
+
+.box{margin:auto;width:90%;padding:5px;background: #ccc;border-radius:10px;}
+
+.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
+.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+.tftable tr:nth-child(2n) {background-color:#d4e3e5;}
+.tftable tr:nth-child(2n+1) {background-color:#dfdfdf;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+.tftable tr:hover {background-color:#cfcfcf;}
+
+.cajatexto { color: black; border-radius: 5px; font-family: arial; font-size: 12px}
+.etiqueta { font-weight: bold; font-family: arial; font-size: 12px }
+.notas { font-family: verdana; font-size: 10px}
+.letraverdana { font-family: verdana; font-size: 18px}
+
+

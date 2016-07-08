@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<title>Ejercicio Final css</title>
+
+<link rel="stylesheet" href="Estilo.css" type="text/css" >
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="Ejercicio.js"></script>
+<script src="jquery-2.1.1.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Ejercicio final</h1>
+		<h2>.. Con Css Y JQuery</h2>
+	</header>
+	<nav>
+		<a href="#">Menu 1</a>
+		<a href="#">Menu 2</a>
+		<a href="#">Menu 3</a>
+		<a href="#">Menu 4</a>
+		<a href="#">Menu 5</a>
+		<a href="#">Menu 6</a>
+		<a href="#">Menu 7</a>
+		<a href="#">Menu 8</a>
+		<a href="#">Menu 9</a>
+		<a href="#">Menu 10</a>
+	</nav>
+	<section>
+		<article>			
+		</article>
+		<article>
+			<div>
+				<h1>Tabla final</h1>
+				<p>2 de julio 2014</p>
+				<h2>datos</h2>
+			</div>
+			<div class="box">
+				<table id="tblDato" class="tftable" border="1">
+				<tr><th>Primer nombre</th><th>Segundo nombre</th><th>Apellido</th><th>Ciudad</th><th>Genero</th><th>Estado</th></tr>
+				<tr><td>Pepito</td><td>Hermides</td><td>Perez</td><td>Bogota</td><td>Masculino</td><td>Activo</td></tr>
+				<tr><td>Petronila</td><td></td><td>Sulca</td><td>Medellin</td><td>Femenino</td><td>Activo</td></tr>
+				<tr><td>Zutanito</td><td>Justo</td><td>Perez</td><td>Cali</td><td>Masculino</td><td>Inactivo</td></tr>
+				</table>				
+			</div>
+			<!--<div id="boxSize1" class="boxSize"></div>
+			<br />
+			<div id="boxSize2" class="boxSize"></div>-->
+			<div>
+				<table id="tblControles">
+					<tr>
+						<td class="etiqueta">Primer nombre</td>
+						<td class="etiqueta">Segundo nombre</td>
+						<td class="etiqueta">Apellido</td>
+						<td class="etiqueta">Ciudad</td>
+						<td class="etiqueta">Género</td>
+						<td class="etiqueta">Estado</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" id="txtPrimerNombre" value="Primer nombre" />
+						</td>
+						<td>
+							<input type="text" id="txtSegundoNombre" value="Segundo nombre" />
+						</td>
+						<td>
+							<input type="text" id="txApellido" value="Apellido" />
+						</td>
+						<td>
+							<select id="ddlCiudad">
+								<option value="1">Bogota<option/>
+								<option value="2">Medellin<option/>
+								<option value="3">Cali<option/>
+							</select>
+						</td>
+						<td>
+							<input type="radio" id="rdMasculino" name="rdGenero" value="Masculino" checked="true" />
+							<input type="radio" id="rdFemenino" name="rdGenero" value="Femenino" />
+						</td>
+						<td>
+							<input type="checkbox" id="chkEstado"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" class="etiqueta">Foto</td>
+					</tr>
+					<tr>
+						<td colspan="6">
+							<img id="imgFoto" src="smiley.gif" width="100px" height="100px" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6">
+							 <ul>
+								<li class="etiqueta">Los datos son obligatorios</li>
+								<li>Haga click en guardar</li>							
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6">
+							<button id="btnGuardar">Guardar</button>
+						</td>
+					</tr>
+				</table>				
+			</div>
+		</article>
+		
+		<article>		
+		</article>
+	</section>	
+	<footer>
+	</footer>
+<script>
+$("section").height(($( window ).height()*.92)-$("header").height()-$("nav").height()-$("footer").height());
+</script>
+</body></html>

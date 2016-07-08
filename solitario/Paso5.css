@@ -1,0 +1,87 @@
+﻿ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    overflow: hidden;
+    background-color:#808080;
+    width: 113px;
+    height: 158px;
+    border-radius:15px;
+}
+
+ul li
+{
+    border: 1px solid #000000;
+    border-radius:15px;
+    width: 113px;
+    height: 158px;
+    background-image: url("baraja.png");
+    background-repeat: no-repeat;
+    float: left;
+    margin-right:-115px;
+    background-color:white;
+}
+
+
+
+
+
+#C0{background-position:0px 0px}
+#C1{background-position:-113px 0px}
+#C2{background-position:-225px 0px}
+#C3{background-position:-338px 0px}
+#C4{background-position:-450px 0px}
+#C5{background-position:-563px 0px}
+#C6{background-position:-675px 0px}
+#C7{background-position:-788px 0px}
+#C8{background-position:-900px 0px}
+#C9{background-position:-1013px 0px}
+#C10{background-position:-1125px 0px}
+#C11{background-position:-1238px 0px}
+#C12{background-position:-1351px 0px}
+#C13{background-position:0px -158px}
+#C14{background-position:-113px -158px}
+#C15{background-position:-225px -158px}
+#C16{background-position:-338px -158px}
+#C17{background-position:-450px -158px}
+#C18{background-position:-563px -158px}
+#C19{background-position:-675px -158px}
+#C20{background-position:-788px -158px}
+#C21{background-position:-900px -158px}
+#C22{background-position:-1013px -158px}
+#C23{background-position:-1125px -158px}
+#C24{background-position:-1238px -158px}
+#C25{background-position:-1351px -158px}
+#C26{background-position:0px -316px}
+#C27{background-position:-113px -316px}
+#C28{background-position:-225px -316px}
+#C29{background-position:-338px -316px}
+#C30{background-position:-450px -316px}
+#C31{background-position:-563px -316px}
+#C32{background-position:-675px -316px}
+#C33{background-position:-788px -316px}
+#C34{background-position:-900px -316px}
+#C35{background-position:-1013px -316px}
+#C36{background-position:-1125px -316px}
+#C37{background-position:-1238px -316px}
+#C38{background-position:-1351px -316px}
+#C39{background-position:0px -474px}
+#C40{background-position:-113px -474px}
+#C41{background-position:-225px -474px}
+#C42{background-position:-338px -474px}
+#C43{background-position:-450px -474px}
+#C44{background-position:-563px -474px}
+#C45{background-position:-675px -474px}
+#C46{background-position:-788px -474px}
+#C47{background-position:-900px -474px}
+#C48{background-position:-1013px -474px}
+#C49{background-position:-1125px -474px}
+#C50{background-position:-1238px -474px}
+#C51{background-position:-1351px -474px}
+
+
+
+
+

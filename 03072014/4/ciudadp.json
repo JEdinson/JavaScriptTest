@@ -1,0 +1,18 @@
+jsonCallback(
+{
+  "ciudades": [
+    {
+		"IDCiudad": "1",
+		"Nombre": "Bogota",	
+    },
+    {
+		"IDCiudad": "2",
+		"Nombre": "Medellin",	
+    },
+    {
+		"IDCiudad": "3",
+		"Nombre": "Cali",	
+    }
+  ]
+}
+);

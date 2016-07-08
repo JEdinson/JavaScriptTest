@@ -1,0 +1,11 @@
+#feedback { font-size: 1.4em; }
+#selectTable .ui-selecting { background: #FECA40; }
+#selectTable .ui-selected { background: #F39814; color: white; }
+
+#selectTable { list-style-type: none; margin: 0; padding: 0; width: 330px; display:inline-block; }
+#selectTable li { margin: 3px; padding: 1px; float: left; font-size: 1.4em; width: 25px; height: 25px; text-align: center;}
+
+#colores{width: 300px;}
+#colores li{float:left; width: 100px;}
+
+.marcado{background:black; color:white;}
